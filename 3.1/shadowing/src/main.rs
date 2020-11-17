@@ -10,7 +10,7 @@ fn main() {
     let spaces = spaces.len();
     println!("The length and value of spaces is: {}", spaces);
     
-    let mut spaces = "   ";
-    spaces = spaces.len();
+    let spaces = "   ";
+    let spaces = spaces.len();
     println!("The length and value of spaces is: {}", spaces);
 }

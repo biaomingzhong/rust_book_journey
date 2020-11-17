@@ -1,8 +1,11 @@
 fn main() {
     let mut counter = 0;
 
+    // loop
     let result = loop {
         counter += 1;
+
+        println!("loop counter is {}", counter);
 
         if counter == 10 {
             break counter * 2;
@@ -15,7 +18,7 @@ fn main() {
     let mut number = 3;
 
     while number != 0 {
-        println!("{}!", number);
+        println!("while number is {}", number);
 
         number = number - 1;
     }
@@ -26,12 +29,12 @@ fn main() {
     let a = [10, 20, 30, 40, 50];
 
     for element in a.iter() {
-        println!("the value is: {}", element);
+        println!("for iter element value is: {}", element);
     }
     
     // for times
     for number in (1..4).rev() {
-        println!("{}!", number);
+        println!("for iter number is: {}", number);
     }
     println!("LIFTOFF!!!");
 }
